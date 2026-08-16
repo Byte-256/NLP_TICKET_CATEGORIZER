@@ -28,7 +28,7 @@ This project uses the NLP and Multinomial Naive Bayes to automatically categoriz
 ## How to run
 #### Prerequisites
 - Python 3.10 or greater  
-- [https://docs.astral.sh/uv/getting-started/](uv) - A fast Python package manager written in Rust.  
+- [uv](https://docs.astral.sh/uv/getting-started/) - A fast Python package manager written in Rust.  
 
 #### Steps to run
 - Step 1: Clone the repo  
