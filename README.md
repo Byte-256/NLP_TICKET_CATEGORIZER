@@ -12,16 +12,16 @@ This project uses the NLP and Multinomial Naive Bayes to automatically categoriz
 
 ### How the input ticket get categorize  
 
-##### Text Preprocessing  
+#### Text Preprocessing  
  The input undergoes cleaning to remove,  
    - special character (e.g., !@#, punctuation).  
    - Stopwords (common words like "the," "is," "and"). The text is then normalized to lowercase for consistency."  
  Converts the input into lowercase
 
-##### Feature Extraction (TF-IDF Vectorization)
+#### Feature Extraction (TF-IDF Vectorization)
  The cleaned text is transformed into numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency).  
 
-##### Classification using Naive Bayes
+#### Classification using Naive Bayes
  The TF-IDF vectors are passed to `MultinomialNB` Model, which predicts the ticket's category based on learned patterns.  
 
 
